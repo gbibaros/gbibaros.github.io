@@ -3170,7 +3170,7 @@ $(document).ready(function(){
         indicators: false,
         height: 400,
         transition: 500,
-        interval: 6000
+        interval: 3500
       };
       options = $.extend(defaults, options);
 
