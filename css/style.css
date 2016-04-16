@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+ html {
+    font-family: roboto;
+  }
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -112,10 +116,59 @@ footer.page-footer {
   font-size: 18px;
 }
 
+.font-15{
+  font-size: 15px;
+}
+
+.font-16{
+  font-size: 16px;
+}
+
+.font-17{
+  font-size: 17px;
+}
+
+.font-18{
+  font-size: 18px;
+}
+
+.font-19{
+  font-size: 19px;
+}
+
+.font-20{
+  font-size: 20px;
+}
+
+.font-21{
+  font-size: 21px;
+}
+
+.font-22{
+  font-size: 22px;
+}
+
 .font-23{
   font-size: 23px;
 }
 
+.font-24{
+  font-size: 24px;
+}
+
+.font-25{
+  font-size: 25px;
+}
+
 .pengurus{
   width: 175px;
+}
+
+.top{
+  background-image: url("image/background1.jpg");
+}
+
+.komunitas{
+  width: 300px;
+  height: 220px;
 }
