@@ -6,10 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
- html {
-    font-family: roboto;
-  }
-
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -160,6 +156,10 @@ footer.page-footer {
   font-size: 25px;
 }
 
+.font-27{
+  font-size: 27px;
+}
+
 .pengurus{
   width: 175px;
 }
@@ -168,7 +168,20 @@ footer.page-footer {
   background-image: url("image/background1.jpg");
 }
 
+.wedo{
+  height: 75px;
+}
+
+.bar{
+  width: 675px;
+  margin: 0px;
+}
+
 .komunitas{
   width: 300px;
-  height: 220px;
+  height: 210px;
+}
+
+.clean{
+  margin:0px;
 }
