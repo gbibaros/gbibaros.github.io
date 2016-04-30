@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+.custom-font { 
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 800;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -144,7 +149,8 @@ footer.page-footer {
 
 .komunitas{
   width: 300px;
-  height: 210px;
+  height: 200px;
+  cursor: pointer;
 }
 
 .clean{
@@ -159,5 +165,36 @@ footer.page-footer {
 #map{
   width: 100%;
   height: 225px;
-  margin-bottom: 25px;
+}
+
+.show{display:block}
+
+.hoverEffect1
+{
+  width:100%;
+  left:0;
+  top:0;
+  display:block;
+  height:100%
+}
+  
+.hoverEffect1
+{
+  position:absolute;
+  background:rgba(0,0,0,.1);
+  transition:all 300ms linear;
+  transform:scale(.01);
+  -webkit-transform:scale(.01);
+  -o-transform:scale(.01);
+  -ms-transform:scale(.01);
+  transform-origin:center center
+}
+
+.card:hover .hoverEffect1
+{
+  transform:scale(1);
+  -webkit-transform:scale(1);
+  -o-transform:scale(1);
+  -ms-transform:scale(1);
+  background:rgba(0,0,0,.7)
 }
