@@ -153,6 +153,12 @@ footer.page-footer {
   cursor: pointer;
 }
 
+.events{
+  width: 450px;
+  height: 300px;
+  cursor: pointer;
+}
+
 .clean{
   margin:0px;
 }
