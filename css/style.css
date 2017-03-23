@@ -223,7 +223,7 @@ footer.page-footer {
   -webkit-transform:scale(1);
   -o-transform:scale(1);
   -ms-transform:scale(1);
-  background:rgba(0,0,0,.7)
+  background:rgba(0,0,0,.8)
 }
 
 .tombol 
@@ -249,4 +249,10 @@ footer.page-footer {
   border:  2px solid white;
   float: none;
   text-align: center;
+ }
+
+ .trans
+ {
+  opacity: 0.1;
+  filter: alpha (opacity=10);
  }
