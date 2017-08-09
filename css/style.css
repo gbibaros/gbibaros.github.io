@@ -8,7 +8,7 @@
 
 .custom-font { 
   font-family: 'Droid Sans', sans-serif;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 nav ul a,
@@ -17,7 +17,8 @@ nav .brand-logo {
 }
 
 p {
-  line-height: 2rem;
+  line-height: 1.5rem;
+  
 }
 
 .button-collapse {
@@ -233,7 +234,7 @@ footer.page-footer {
   border-radius: 2px;
   display: inline-block;
   height: 36px;
-  line-height: 36px;
+  line-height: 32px;
   outline: 0;
   padding: 0 2rem;
   text-transform: uppercase;
@@ -289,3 +290,8 @@ footer.page-footer {
 .share-btn.reddit      { background: #ff5700; }
 .share-btn.linkedin    { background: #4875B4; }
 .share-btn.email       { background: #444444; }
+
+hr {
+  height: 3px;
+  border:0;
+}
